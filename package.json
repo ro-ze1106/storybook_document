@@ -63,8 +63,12 @@
     "@storybook/node-logger": "^6.5.9",
     "@storybook/preset-create-react-app": "^4.1.2",
     "@storybook/react": "^6.5.9",
+    "@storybook/test-runner": "^0.3.0",
     "@storybook/testing-library": "^0.0.13",
     "babel-plugin-named-exports-order": "^0.0.2",
+    "chaos": "^0.2.0",
+    "chromatic": "^6.6.3",
+    "jest": "27",
     "prop-types": "^15.8.1",
     "webpack": "^5.73.0"
   }

@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@mdx-js/react": "^2.1.2",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
@@ -22,7 +23,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "chromatic": "npx chromatic --project-token=bf323b81e117"
   },
   "eslintConfig": {
     "extends": [
@@ -53,10 +55,12 @@
     ]
   },
   "devDependencies": {
+    "@storybook/addon-a11y": "^6.5.9",
     "@storybook/addon-actions": "^6.5.9",
     "@storybook/addon-essentials": "^6.5.9",
     "@storybook/addon-interactions": "^6.5.9",
     "@storybook/addon-links": "^6.5.9",
+    "@storybook/addon-storyshots": "^6.5.9",
     "@storybook/builder-webpack5": "^6.5.9",
     "@storybook/jest": "^0.0.10",
     "@storybook/manager-webpack5": "^6.5.9",
@@ -65,11 +69,15 @@
     "@storybook/react": "^6.5.9",
     "@storybook/test-runner": "^0.3.0",
     "@storybook/testing-library": "^0.0.13",
+    "axe-playwright": "^1.1.11",
     "babel-plugin-named-exports-order": "^0.0.2",
     "chaos": "^0.2.0",
     "chromatic": "^6.6.3",
     "jest": "27",
     "prop-types": "^15.8.1",
+    "react-test-renderer": "^18.0.0",
     "webpack": "^5.73.0"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "storybooks@0.1.0"
 }
